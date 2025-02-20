@@ -1,8 +1,27 @@
-# React + Vite
+# Pincode Data Fetching using React.js
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ A simple React.js application that fetches and displays location details based on the entered pincode. It interacts with an API to provide city, district, and state information.
 
-Currently, two official plugins are available:
+**Features**  
+Fetches location details based on the user-entered pincode  
+✅ Uses API integration for real-time data fetching   
+✅ Handles invalid or incorrect pincode entries gracefully  
+✅ Clean and responsive UI built with Tailwind CSS  
+✅ Fast performance with React's efficient state management  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**API Used**  
+https://api.postalpincode.in/pincode/{pincode}  
+
+**Technologies Used**  
+⚛ React.js – JavaScript library for building UI  
+🎨 Tailwind CSS – Utility-first CSS framework for styling  
+🌍 Public API – Fetches pincode details  
+⚡ Axios / Fetch API – Handling API requests  
+
+**Usage Guide**  
+
+1️⃣ Enter a valid pincode in the input field.  
+2️⃣ Click "Search" or press Enter.  
+3️⃣ The app fetches and displays: City, District, State, Post Office Namee  
+4️⃣ If the pincode is invalid, an error message is displayed.  
+
